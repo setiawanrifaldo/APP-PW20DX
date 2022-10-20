@@ -1,0 +1,29 @@
+:root
+{
+        --putih : #FFFFFF;
+        --merah_muda  : #FFCCCC; 
+        --kosong: 0;
+        --padding_custom : 10px;
+        --border_custom : 1px solid #333333;
+}
+table
+{
+    width: 100%; 
+    border-collapse:collapse;
+}
+
+th,td
+{
+    padding:var(--padding_custom);
+    border:var(--border_custom);
+}
+
+.bg_putih
+{
+    background: var(--putih);
+}
+
+.bg_merah_muda
+{
+    background: var(--merah_muda);
+}
